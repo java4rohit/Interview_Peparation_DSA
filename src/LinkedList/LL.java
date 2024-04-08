@@ -1,12 +1,10 @@
 package LinkedList;
 
 public class LL {
-
     ListNode head;
     public class ListNode{
         int data;
        ListNode next;
-
         public ListNode(int data){
             this.data =data;
             this.next=null;

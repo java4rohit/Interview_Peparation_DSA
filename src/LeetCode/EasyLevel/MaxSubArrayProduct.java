@@ -1,12 +1,12 @@
 package LeetCode.EasyLevel;
 
 public class MaxSubArrayProduct {
-    private static int maxSubArrayProduct(int[] nums) {
+    private static Long maxSubArrayProduct(int[] nums) {
 
 
         int pree = 1;
         int suff = 1;
-        int ans = 0;
+        long ans = Integer.MIN_VALUE;
 
         for(int i = 0; i <nums.length ; i++){
             if(pree == 0) {
@@ -25,8 +25,8 @@ public class MaxSubArrayProduct {
         return ans;
     }
     public static void main(String[] args) {
-        int nums[] = {2,3,-2, 4};
-        int i = maxSubArrayProduct(nums);
+        int nums[] = {3 ,12, 15, 23, 33, -35, 30, -40, -30, -30, -30, 26, 28};
+        Long i = maxSubArrayProduct(nums);
         System.out.println(i);
     }
 
