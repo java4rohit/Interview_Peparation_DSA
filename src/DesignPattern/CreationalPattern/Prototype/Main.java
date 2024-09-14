@@ -18,7 +18,8 @@ public class Main {
 
         System.out.println(networkConnection);
         networkConnection.getDomain().remove(0);
-
+        networkConnection1.getDomain().remove(1);
+        System.out.println(networkConnection);
         System.out.println(networkConnection1);
         System.out.println(networkConnection2);
 

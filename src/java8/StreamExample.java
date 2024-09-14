@@ -16,10 +16,13 @@ public class StreamExample {
 
 		Map<String, List<String>> collect = Arrays.stream(result).collect(Collectors.groupingBy(s -> s));
 
-		Map<String, Long> counttheCharater = Arrays.stream(result).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
-		
-		
+		Map<String, Long> counttheCharater =Arrays.stream(result)
+				.collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+
+
           Arrays.stream(result).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+
+
 		List<String> findtheDublicateElement = Arrays.stream(result)
 				.collect(Collectors.groupingBy(Function.identity(),Collectors.counting()))
 				.entrySet().stream()

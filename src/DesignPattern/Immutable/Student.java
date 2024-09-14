@@ -4,10 +4,10 @@ package DesignPattern.Immutable;
 
 import java.util.Comparator;
 
-public final class Student  {
-    final private int id ;
+public final class Student {
+    final private int id;
     final private String StudentName;
-   final private  Address address;
+    final private Address address;
 
     public Student(int id, String studentName, Address address) {
         this.id = id;
@@ -26,6 +26,7 @@ public final class Student  {
     public String getStudentName() {
         return StudentName;
     }
+
 //Removed Set
 //    public void setStudentName(String studentName) {
 //        StudentName = studentName;

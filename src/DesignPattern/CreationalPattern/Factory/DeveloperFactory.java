@@ -10,6 +10,7 @@ Advantage:
 2.loose coupling  more robust code.
  */
 public class DeveloperFactory {
+
     public static Employee getDeveloper(String developerType) {
 
         if (developerType.trim().equalsIgnoreCase("Web Developer")) {

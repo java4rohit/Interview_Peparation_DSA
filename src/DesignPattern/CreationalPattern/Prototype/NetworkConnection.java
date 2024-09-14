@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class NetworkConnection implements  Cloneable{
+public class NetworkConnection implements Cloneable{
 
     private String ip;
     private String data;
