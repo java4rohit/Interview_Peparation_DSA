@@ -21,7 +21,6 @@ public class Test {
         String output = "";
 
         Stack<Character> stk  = new Stack<>();
-
         for(int i = 0 ;  i< input.length(); i++) {
             char ch = input.charAt(i);
             if (ch == '(' || ch == '{' || ch == '[') {

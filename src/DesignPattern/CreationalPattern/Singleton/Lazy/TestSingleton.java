@@ -17,7 +17,7 @@ public class TestSingleton {
         System.out.println("S1 hashCode "+s1.hashCode());
 // 3.break singleton using cloneable
         Sun s2 = (Sun) s1.clone();
-        System.out.println("Clone break single Or nor"+s2.hashCode());
+        System.out.println("Clone break single Or not "+s2.hashCode());
 /*
  // 1. First Way to Break Singleton using Reflection
 

@@ -18,5 +18,6 @@ public class ConsumerDemo {
 		List<Integer> list = Arrays.asList(1,2,3,4,5,6);
 		
 		list.stream().forEach(t -> System.out.println("Print: :"+ t));
+
 	}
 }

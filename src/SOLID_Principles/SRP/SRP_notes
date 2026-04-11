@@ -1,0 +1,12 @@
+
+
+1. Coupling :
+
+Coupling refer to the degree of interdependency between the software component.
+How your software component interdependent :
+Example : mobile and pin (tightly couple)
+
+2. cohesion :
+
+How different software component  are related to each other
+example : in a bucket boc we store  remote of your house

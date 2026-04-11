@@ -1,0 +1,17 @@
+Key Features Implemented :
+
+World Class
+Card Management: Add (arrive) and remove (leave) cards.
+Capacity Management: Check if the world is full.
+Card Search: Find a card by ID or check if a card is on the world.
+Points Conversion: Convert points to bitcoins for all cards.
+toString: Display details about the world and the cards on it.
+Shuttle Class
+Card Validation: canEnterShuttle ensures all conditions (luxury rating, capacity, bitcoins, etc.) are met.
+Movement Handling: processCardMovement moves a card and updates its status or returns an error message.
+toString: Summarizes the shuttle's journey details.
+
+
+Next Steps
+Test Cases: Implement a tester class to validate the functionality of World and Shuttle classes.
+Integration: Connect these classes with a Resort class to manage the system as a whole.

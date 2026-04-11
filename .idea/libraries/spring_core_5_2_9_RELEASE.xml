@@ -2,6 +2,7 @@
   <library name="spring-core-5.2.9.RELEASE">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../EclipesProject/SpringsJars/spring-core-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../java_jars/guava-11.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=World
+comment1.params=referenceNumber\ name\ luxuryRating\ capacity
+comment1.target=World(int,\ java.lang.String,\ int,\ int)
+comment10.params=
+comment10.target=void\ convertPointsToBitcoins()
+comment11.params=cardId
+comment11.target=boolean\ hasCard(int)
+comment12.params=
+comment12.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=int\ getReferenceNumber()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=int\ getRating()
+comment5.params=
+comment5.target=boolean\ isFull()
+comment6.params=card
+comment6.target=boolean\ arrive(Card)
+comment7.params=card
+comment7.target=boolean\ leave(Card)
+comment8.params=cardId
+comment8.target=Card\ getCardById(int)
+comment9.params=card
+comment9.target=boolean\ isCardOnWorld(Card)
+numComments=13

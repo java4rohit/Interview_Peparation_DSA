@@ -2,8 +2,6 @@ package DesignPattern.Immutable;
 
 //Immutable mean Once Object is constructed , its State cannot be changed
 
-import java.util.Comparator;
-
 public final class Student {
     final private int id;
     final private String StudentName;
@@ -34,7 +32,8 @@ public final class Student {
 
 
     public Address getAddress() {
-        return new Address(address);
+       // return new Address(address);
+        return address;
     }
 
     @Override

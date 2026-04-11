@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Shuttle
+comment1.params=journeyCode\ fromWorld\ toWorld
+comment1.target=Shuttle(java.lang.String,\ World,\ World)
+comment2.params=
+comment2.target=java.lang.String\ getJourneyCode()
+comment3.params=
+comment3.target=World\ getFromWorld()
+comment4.params=
+comment4.target=World\ getToWorld()
+comment5.params=card
+comment5.target=boolean\ canEnterShuttle(Card)
+comment6.params=card
+comment6.target=java.lang.String\ processCardMovement(Card)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

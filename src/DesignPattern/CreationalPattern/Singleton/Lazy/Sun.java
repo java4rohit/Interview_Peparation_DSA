@@ -28,14 +28,15 @@ public class Sun implements Serializable, Cloneable {
     }
 
     //Implement ReadResolve
-    public Object readResolve() {
-        return sun;
-    }
+//    public Object readResolve() {
+//        return sun;
+//    }
 
     // override clone method
 
+
     @Override
-     public Object clone() throws CloneNotSupportedException {
-     return sun;
+    protected Object clone() throws CloneNotSupportedException {
+        return sun;
     }
 }

@@ -1,0 +1,4 @@
+1.What is Stream :
+
+ In java Stream  Basically  represent a pipeline which data will flow : Stream will perform various operation on that data
+  and transform the data into Other data.

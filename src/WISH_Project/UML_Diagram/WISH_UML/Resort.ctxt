@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Resort
+comment1.params=location
+comment1.target=Resort(java.lang.String)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=void\ loadWorlds()
+comment3.params=
+comment3.target=void\ loadCards()
+comment4.params=
+comment4.target=void\ setUpShuttles()
+comment5.params=card\ journeyCode
+comment5.target=boolean\ canTravel(Card,\ java.lang.String)
+comment6.params=card\ journeyCode
+comment6.target=java.lang.String\ travel(Card,\ java.lang.String)
+comment7.params=referenceNumber
+comment7.target=World\ findWorldByReference(int)
+comment8.params=journeyCode
+comment8.target=Shuttle\ findShuttleByCode(java.lang.String)
+comment9.params=cardId
+comment9.target=Card\ findCardById(int)
+numComments=11

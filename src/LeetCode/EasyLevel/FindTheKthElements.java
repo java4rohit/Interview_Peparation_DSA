@@ -4,22 +4,22 @@ import java.util.PriorityQueue;
 
 public class FindTheKthElements {
     public static void main(String[] args) {
+        int[] nums = {5, 3, 1, 4, 2}; // 1,2,3,4,5
+        System.out.println(findSecondLargest(nums));
+    }
 
-        int arr[] = {7, 10, 4, 20, 15};//3,4
-        int k = 4;
+    public static int findSecondLargest(int[] nums) {
 
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->b-a); //MAX HEAP 5,4,3,2,1
 
-        for (int i = 0; i < arr.length; i++) {
-            pq.add(arr[i]);
+        for (int num : nums) {
+            pq.add(num);
+            if (pq.size() > 2) {
+                pq.poll(); // remove the smallest in the top two
+            }
         }
 
-        System.out.println(pq.poll());
-        System.out.println(pq.poll());
-        System.out.println(pq.poll());
-        System.out.println(pq.remove());
-        System.out.println(pq.remove());
-
+        return pq.poll(); // the remaining element is the second largest
 
     }
 }

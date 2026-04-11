@@ -1,0 +1,32 @@
+Welcome to the Resort Management System
+1. Can Travel
+2. Travel
+3. Show Resort Status
+4. Exit
+Choose an option: 1
+Enter Card ID: 1000
+Enter Shuttle Journey Code: JKL8
+The card can travel using the shuttle.
+
+Welcome to the Resort Management System
+1. Can Travel
+2. Travel
+3. Show Resort Status
+4. Exit
+Choose an option: 2
+Enter Card ID: 1000
+Enter Shuttle Journey Code: JKL8
+Card ID 1000 successfully traveled from Home to Fantasia.
+
+Welcome to the Resort Management System
+1. Can Travel
+2. Travel
+3. Show Resort Status
+4. Exit
+Choose an option: 3
+
+Resort Status:
+Resort Location: Wayward Worlds
+Worlds: 5
+Shuttles: 5
+Cards: 10
